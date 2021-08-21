@@ -39,13 +39,12 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Access
                       <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li class="active"> <%--Current page--%>
+                        <li> <%--Current page--%>
                             <a href="login.jsp">Login</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="join.jsp">Join</a>
                         </li>
-
                     </ul>
                 </li>
             </ul>
@@ -73,12 +72,12 @@
                                 <input type="radio" name="userGender" autocomplete="off" value="Male" checked>Male
                             </label>
                             <label class="btn btn-primary">
-                                <input type="radio" name="userGender" autocomplete="off" value="Male" checked>Female
+                                <input type="radio" name="userGender" autocomplete="off" value="Male">Female
                             </label>
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email" name="userEmail" maxlength="20">
+                        <input type="email" class="form-control" placeholder="Email" name="userEmail" maxlength="50">
                     </div>
 
                     <input type="submit" class="btn btn-primary form-control" value="Sign Up">
